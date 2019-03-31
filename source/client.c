@@ -50,14 +50,14 @@ int main(int argc, char **argv) {
 	printf("\x1b[2;0H");
 
 
-	printf("Connecting to Discord...");
+	printf("Connecting to the Demae Channel...");
 
 	WII_LaunchTitleWithArgs(0x0001000148414445LL, 0,"http://demae.rc24.xyz/", NULL /*terminator*/ );
 	WII_LaunchTitleWithArgs(0x0001000148414450LL, 0,"http://demae.rc24.xyz/", NULL /*terminator*/ );
 	WII_LaunchTitleWithArgs(0x000100014841444ALL, 0,"http://demae.rc24.xyz/", NULL /*terminator*/ );
 
 	printf("\n");
-	printf("Looks like you don't have the Internet Channel installed. Please install it to use Discord on your Wii!");
+	printf("Looks like you don't have the Internet Channel installed. Please install it to use the Demae Channel on your Wii!");
 
 	while(1) {
 
